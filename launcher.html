@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>LS Launcher</title>
+  <link rel="stylesheet" href="launcher.css">
+  <link rel="shortcut icon" type="image/png" href="icone.png">
+
+</head>
+
+
+
+
+ <div class="background">
+
+  <div class="padding-top"></div>
+<table class="table-fill">
+<thead>
+<tr>
+<th class="text-left-color" ><b>SERVER&nbsp;NAME</b></th>
+<th class="text-left-color"><b>&#160&#160CONNECT</b></th>
+<th class="text-left-color"><b>&#160DOWNLOAD TS</b></th>
+<th class="text-left-color"><b> &#160&#160TEAM&nbsp;SPEAK</b></th>
+<th class="text-left-color"><b>PLUGIN : 1.2.4</b></th>
+<th class="text-left-color"><b>DISCORD</b></th>
+</tr>
+</thead>
+<tbody class="table-hover">
+            <tr>
+<td class="text-left"><b>&#160&#160&#160&#160Skyline-RP</b></td>
+<td class="text-left"><a href="fivem://connect/51.178.244.88:28385" class="join-btn"><b>JOIN SERVEUR</b></a></td>
+<td class="text-left"><a href="https://www.teamspeak.com/en/downloads/#" target="blank_" class="join-btn"><b>LINK TEAM SPEAK</b></a></td>
+<td class="text-left"><a href="ts3server://lifestyle.riftts.com" class="join-btn"><b>JOIN TEAMSPEAK</b></a></td>
+<td class="text-left"><a href="https://cdn.discordapp.com/attachments/879104247910785086/883820813575405669/tokovoip_1_2_4.ts3_plugin" class="join-btn"><b>DOWNLOAD</b></a></td>
+<td class="text-left"><a href="https://discord.gg/5b5Sqwu4Dk" target="blank_" class="join-btn"><b>JOIN NOW</b></a></td> 
+</tr>
+
+</tbody>
+</table>
+</div>
+  </body>
+</body>
+<script> 
+  document.onmousedown = disableclick;
+    status = "Right Click Disabled";
+    function disableclick(e)
+    {
+      if(event.button == 2)
+      {
+        alert(status);
+        return false;
+      }
+    }
+</script>
+        }
+
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>
+        document.onkeydown = function(e) {
+                if (e.ctrlKey && 
+                    (e.keyCode === 67 || 
+                     e.keyCode === 86 || 
+                     e.keyCode === 85 || 
+                     e.keyCode === 117)) {
+                    return false;
+                } else {
+                    return true;
+                }
+        };
+        $(document).keypress("u",function(e) {
+          if(e.ctrlKey)
+          {
+        return false;
+        }
+        else
+        {
+        return true;
+        }
+        });
+        </script> 
+        <script>
+          $(document).keydown(function (event) {
+            if (event.keyCode == 123) { // Prevent F12
+                alert("F12 is Disabled");
+                return false;
+            } else if (event.ctrlKey && event.shiftKey && event.keyCode == 73) { // Prevent Ctrl+Shift+I        
+                return false;
+            }
+        }); </script>
+          </script>
+        <script>
+          $(document).keydown(function (event) {
+            if (event.keyCode == 18) { // Prevent F12
+                return false;
+            } else if (event.keyCode == 18) { // Prevent Ctrl+Shift+I        
+                return false;
+            }
+          
+          }); </script>
+</html>
